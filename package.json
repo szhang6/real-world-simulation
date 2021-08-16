@@ -1,0 +1,20 @@
+{
+  "name": "real-world-simulation",
+  "version": "1.0.0",
+  "description": "real-world-simulation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szhang6/real-world-simulation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szhang6/real-world-simulation/issues"
+  },
+  "homepage": "https://github.com/szhang6/real-world-simulation#readme"
+}
