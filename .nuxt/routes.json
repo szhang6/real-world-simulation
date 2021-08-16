@@ -1,5 +1,12 @@
 [
   {
+    "name": "layout",
+    "path": "/layout",
+    "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/layout/index.vue",
+    "chunkName": "pages/layout/index",
+    "_name": "_690e4fe2"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/index.vue",
