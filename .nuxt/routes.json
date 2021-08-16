@@ -20,6 +20,30 @@
         "name": "register",
         "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/login",
         "_name": "_ad41d142"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/profile",
+        "_name": "_b1c4e7c2"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/settings",
+        "_name": "_6457ef26"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/editor",
+        "_name": "_75f7f837"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/article",
+        "_name": "_e4306128"
       }
     ],
     "_name": "_fc725c18"

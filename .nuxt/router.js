@@ -7,6 +7,10 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _fc725c18 = () => interopDefault(import('../pages/layout' /* webpackChunkName: "" */))
 const _dc5013ae = () => interopDefault(import('../pages/home' /* webpackChunkName: "" */))
 const _ad41d142 = () => interopDefault(import('../pages/login' /* webpackChunkName: "" */))
+const _b1c4e7c2 = () => interopDefault(import('../pages/profile' /* webpackChunkName: "" */))
+const _6457ef26 = () => interopDefault(import('../pages/settings' /* webpackChunkName: "" */))
+const _75f7f837 = () => interopDefault(import('../pages/editor' /* webpackChunkName: "" */))
+const _e4306128 = () => interopDefault(import('../pages/article' /* webpackChunkName: "" */))
 
 const emptyFn = () => {}
 
@@ -34,6 +38,22 @@ export const routerOptions = {
       path: "/register",
       component: _ad41d142,
       name: "register"
+    }, {
+      path: "/profile/:username",
+      component: _b1c4e7c2,
+      name: "profile"
+    }, {
+      path: "/settings",
+      component: _6457ef26,
+      name: "settings"
+    }, {
+      path: "/editor",
+      component: _75f7f837,
+      name: "editor"
+    }, {
+      path: "/article/:slug",
+      component: _e4306128,
+      name: "article"
     }]
   }],
 
