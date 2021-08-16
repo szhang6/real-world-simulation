@@ -1,16 +1,15 @@
 [
   {
-    "name": "layout",
-    "path": "/layout",
-    "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/layout/index.vue",
-    "chunkName": "pages/layout/index",
-    "_name": "_690e4fe2"
-  },
-  {
-    "name": "index",
     "path": "/",
-    "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_61a55f60"
+    "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/home",
+        "_name": "_dc5013ae"
+      }
+    ],
+    "_name": "_fc725c18"
   }
 ]
