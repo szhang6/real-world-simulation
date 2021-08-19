@@ -19,6 +19,7 @@
                 class="form-control form-control-lg"
                 type="text"
                 placeholder="Your Name"
+                required
               />
             </fieldset>
             <fieldset class="form-group">
@@ -27,6 +28,7 @@
                 class="form-control form-control-lg"
                 type="text"
                 placeholder="Email"
+                required
               />
             </fieldset>
             <fieldset class="form-group">
@@ -35,6 +37,7 @@
                 class="form-control form-control-lg"
                 type="password"
                 placeholder="Password"
+                required
               />
             </fieldset>
             <button class="btn btn-lg btn-primary pull-xs-right">
@@ -68,12 +71,8 @@ export default {
   methods: {
     async onSubmit() {
       // 提交表单，请求登录
-      const { data } = await request({
-        method: "POST",
-        url: "/api/users/login",
-        data: {
-          user: this.user,
-        },
+      const { data } = await login({
+        user: this.user
       });
 
       console.log(data);
