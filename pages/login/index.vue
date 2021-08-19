@@ -75,7 +75,12 @@ export default {
           user: this.user,
         },
       });
+
       console.log(data);
+      // TODO：保存用户的登录状态
+
+      // 跳转到首页
+      this.$router.push('/')
     },
   },
 };
