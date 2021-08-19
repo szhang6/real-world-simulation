@@ -10,7 +10,11 @@
           </p>
 
           <ul class="error-messages">
-            <li>That email is already taken</li>
+            <template v-for="(messages, field) in errors">
+              <li v-for="(message, index) in messages" :key="index">
+                {{field}} {{message}}
+              </li>
+            </template>
           </ul>
 
           <form @submit.prevent="onSubmit">
@@ -66,20 +70,25 @@ export default {
         email: "",
         password: "",
       },
+      errors: {}, // 错误信息
     };
   },
   methods: {
     async onSubmit() {
-      // 提交表单，请求登录
-      const { data } = await login({
-        user: this.user
-      });
+      try {
+        // 提交表单，请求登录
+        const { data } = await login({
+          user: this.user,
+        });
 
-      console.log(data);
-      // TODO：保存用户的登录状态
+        console.log(data);
+        // TODO：保存用户的登录状态
 
-      // 跳转到首页
-      this.$router.push('/')
+        // 跳转到首页
+        this.$router.push("/");
+      } catch (err) {
+        this.errors = err.response.data.errors;
+      }
     },
   },
 };
