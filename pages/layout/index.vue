@@ -7,6 +7,7 @@
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item">
             <!-- Add "active" class when you're on that page" -->
+            <!-- field: 'exact' means match the router exactly -->
             <nuxt-link class="nav-link" to="/" exact>Home</nuxt-link>
           </li>
           <li class="nav-item">

@@ -6,46 +6,38 @@
       {
         "path": "",
         "name": "home",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/home",
-        "_name": "_dc5013ae"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/home"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/login",
-        "_name": "_ad41d142"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/login"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/login",
-        "_name": "_ad41d142"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/login"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/profile",
-        "_name": "_b1c4e7c2"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/profile"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/settings",
-        "_name": "_6457ef26"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/settings"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/editor",
-        "_name": "_75f7f837"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/editor"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/article",
-        "_name": "_e4306128"
+        "component": "/Users/xxzhangctr/zxx-repository/Vue/real-world-simulation/pages/article"
       }
-    ],
-    "_name": "_fc725c18"
+    ]
   }
 ]
